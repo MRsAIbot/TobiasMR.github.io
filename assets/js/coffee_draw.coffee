@@ -4,7 +4,7 @@
 coffee_draw = (p5) ->
   p5.setup = () ->
     p5.size($(window).width(), $(window).height()-400)
-    p5.background(1000)
+    p5.background(39, 47, 63)
     @beans = []
     
   p5.draw = () ->    
